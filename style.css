@@ -1,0 +1,143 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: var(--txt);
+ 
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.content,
+.logo {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.picture{
+    background-image: url(img/trees.avif);
+    width: 40vw;
+    background-size: auto;
+}
+
+.logo{
+    height: auto;
+    background-color: rgb(240, 233, 233,0.5);
+    position: relative;
+    top: 20vh;
+    gap: 5vw;
+    padding: 15px 0;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.symbol{
+    height: 10vh;
+}
+
+.h1{
+    color: white;
+}
+
+
+.right{
+    width: 60vw;
+    background-color: #ffffff;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+
+
+.dummy-text{
+    width: 100%;
+    font-size: 2.2rem;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.remote-text{
+    margin: 50px 0 80px;
+}
+
+
+.form{
+    background-color: rgb(241, 245, 245);
+    box-shadow: 0 10px 20px -2px rgb(22, 22, 22);
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.input{
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    padding-left: 20px;
+
+}
+
+.form-title{
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+
+input{
+    background-color: rgb(140, 136, 136);
+    border: 1px solid rgb(77, 77, 77);
+    border-radius: 3px;
+}
+input:focus{
+    outline: none;
+    border: 2px solid var(--color);
+}
+
+button{
+    background-color: #596D48;
+    color: var(--color);
+    font-weight: 700;
+    font-size: 1.2em;
+    border: 3px solid var(--color);
+    border-radius: 5px;
+    padding: 20px 40px;
+    margin: 40px 0;
+    margin-left: 20px;
+    
+}
+
+button:hover{
+    background-color: green;
+    color: #E5E7EB;
+    
+}
+.log-in{
+    display: flex;
+    gap: 5px;
+    padding-left: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color);
+    font-weight: 700;
+}
+
+a:hover{
+    color: rgb(51, 11, 229);
+}
